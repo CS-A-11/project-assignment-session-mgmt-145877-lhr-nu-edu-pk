@@ -1,0 +1,55 @@
+
+
+.userName{
+    box-shadow: 2px 0px 2px gray;
+    grid-row:1;
+    grid-column:1 / span 2;
+}
+
+.Pass{
+    box-shadow: 2px 0px 2px gray;
+    grid-row:1;
+    grid-column: 4/ span 2;
+}
+
+
+.loginButton{
+    grid-row:1;
+    grid-column: 7/span 2;
+    background-color: dimgray;
+    color:white;
+    border-color: dimgray;
+}
+
+.App-header {
+    background-image: url(background.jpg);
+    height: 25em;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 1.5px;
+    color: white;
+  }
+  ::-webkit-scrollbar
+  {
+    display: none;
+  }
+
+  .Login{
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom: 2px;
+    visibility: hidden;
+    height:0;
+    display: grid;
+    columns: 15;
+  }
+
+.Switcher{
+    color: blue;
+    background-color: white;
+    border: none;
+    background: none;
+    grid-column: 9;
+}

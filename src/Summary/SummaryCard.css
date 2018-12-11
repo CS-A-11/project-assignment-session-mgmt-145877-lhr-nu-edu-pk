@@ -1,0 +1,39 @@
+
+.Summary{
+    display: grid;
+    min-width: 35%;
+    max-width: 35%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    margin-top: 1.25%;
+    margin-bottom:1.25%;
+    box-shadow: 2px 3px 6px grey;
+    background-color: white;
+}
+
+.ImageStyle{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    background-color: whitesmoke;
+    max-width: 99.9%;
+}
+
+.Name{
+    grid-row:2;
+    grid-column: 1;
+}
+
+.Location{
+    grid-row:3;
+    grid-column:1;
+}
+
+.Rating{
+    grid-row:3;
+    grid-column:2;
+}
+
+.Reviews{
+    grid-row:2;
+    grid-column: 2;
+}

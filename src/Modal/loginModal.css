@@ -1,0 +1,18 @@
+.titleGrid{
+    display: grid;
+}
+
+.login{
+    grid-row: 1;
+    grid-column:auto;
+    background-color: white;
+    color:black;
+    border: white;
+    height: 150%;
+}
+
+button:focus {outline:0;}
+
+.mBody{
+    margin-left:20%;
+}
